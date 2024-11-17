@@ -1,24 +1,29 @@
 # Create and connect a repository
 
-1.  git init
+## Setup the ssh key
 
-2.  _Create github/gitlab project_
+1. Create a SSH key : **ssh-keygen -t ed25519 -C "your_email@example.com"**
+2. Copy the public key : **cat ~/.ssh/id_ed25519.pub > file.md**
+3. In your github account go into settings > SSH and GPG keys > click the **new ssh key** button
+4. Paste your public key and give it a name
+5. Create a test project to check that everything run smoothly
 
-3.  add some file
+## Setup a repositorie
 
-4.  **git remote add origin (project-url)**
+1. In your local folder, run **git init**
+2. add some file
+3. **git remote add origin (project-url)**
+4. **git push -u origin master**
 
-5.  **git push -u origin master**
+## Main commands
 
-# Main commands
-
-## Basic file management
+### Basic file management
 
 git status
 
 - check current status
 
-## Staging basics
+### Staging basics
 
 git add (file-name)
 
@@ -28,7 +33,7 @@ git add .
 
 - stage the changes made to all the files
 
-## Commit basics
+### Commit basics
 
 git commit
 
@@ -42,7 +47,7 @@ git commit -m "(commit message)"
 
 - allow to print the commit message between double quotes
 
-## Distant repo management
+### Distant repo management
 
 git push
 
@@ -52,7 +57,7 @@ git pull
 
 - pull all the changes made in the distant repo the the local one
 
-## Versioning
+### Versioning
 
 git log
 
@@ -66,7 +71,7 @@ git log --graph
 
 - add a graph view for the branches
 
-## Branching
+### Branching
 
 git branch
 
