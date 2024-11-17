@@ -114,6 +114,13 @@ Install the extensions you need according to your coding languages/frameworks…
 
 - codeium
 
+### Git/github/gitlab
+
+- git graph
+- git history
+- gitlens
+- github pull request & issues
+
 ### Databases
 
 - prisma
