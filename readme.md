@@ -1,3 +1,3 @@
-# VSCodium configuration
+# Config and information
 
-This folder is made to hold my whole configuration.
+I made this repo to hold my config (vscodium, linux ...), feel free to serve yourself
